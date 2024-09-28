@@ -12,6 +12,6 @@ document.querySelector(".aya").addEventListener("click", () => {
 document.querySelector(".ameer").addEventListener("click", () => {
   window.location.href = "ameer/index.html";
 });
-document.querySelector(".rateb").addEventListener("click", () => {
-  window.location.href = "Rateb/index.html";
-})
+document.querySelector(".nizar").addEventListener("click", () => {
+  window.location.href = "nizar/index.html";
+});
