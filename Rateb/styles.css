@@ -1,0 +1,13 @@
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.name:hover{
+    color: blue;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor:pointer
+}
