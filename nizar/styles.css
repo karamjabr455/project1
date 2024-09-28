@@ -1,0 +1,46 @@
+:root{
+    --background-opacity:1;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(229, 163, 163);
+}
+  
+h1{
+    font-size: 2rem;
+    color:rgba(76, 76, 76,0.7); 
+    border: 3px solid rgb(75, 71, 71);
+    border-radius:40%;
+    padding: 1.7rem;
+}
+
+@keyframes Lighted_Dommed {
+    0%{
+        opacity: 0.2;
+    }
+    25%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.brightText{
+    animation: Lighted_Dommed ;
+    animation-duration:  0.5s ;
+    animation-timing-function:ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    animation-direction:alternate;
+    animation-fill-mode:backwards;
+}
