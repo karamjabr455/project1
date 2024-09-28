@@ -5,3 +5,7 @@ document.querySelector(".zakaria").addEventListener("click", () => {
 document.querySelector(".ameer").addEventListener("click", () => {
   window.location.href = "ameer/index.html";
 });
+
+document.querySelector(".aya").addEventListener("click", () => {
+  window.location.href = "ayaSareej/index.html";
+});
