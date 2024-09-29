@@ -18,4 +18,7 @@ document.querySelector(".nizar").addEventListener("click", () => {
 document.querySelector(".Mohammed").addEventListener("click", () => {
   window.location.href = "mohammed/index.html";
 })
+document.querySelector("#belal").addEventListener("click", () => {
+  window.location.href = "BelalMustafa/index.html";
+})
 
