@@ -21,4 +21,7 @@ document.querySelector(".Mohammed").addEventListener("click", () => {
 document.querySelector("#belal").addEventListener("click", () => {
   window.location.href = "BelalMustafa/index.html";
 })
+document.querySelector(".Nader").addEventListener("click", () => {
+  window.location.href = "Nader/index.html";
+})
 
