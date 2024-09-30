@@ -24,4 +24,7 @@ document.querySelector("#belal").addEventListener("click", () => {
 document.querySelector(".Nader").addEventListener("click", () => {
   window.location.href = "Nader/index.html";
 })
+document.querySelector(".rateb").addEventListener("click", () => {
+  window.location.href = "Rateb/index.html";
+})
 
