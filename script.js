@@ -1,3 +1,9 @@
+const zainab = document.getElementById("zainab");
+
+zainab.addEventListener("click", () => {
+    window.location.href = "/Zainab Ramadan/index.html";
+})
+
 document.querySelector(".zakaria").addEventListener("click", () => {
   window.location.href = "zakaria/index.html";
 });
