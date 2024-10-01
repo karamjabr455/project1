@@ -1,8 +1,8 @@
 const zainab = document.getElementById("zainab");
 
 zainab.addEventListener("click", () => {
-    window.location.href = "/Zainab Ramadan/index.html";
-})
+  window.location.href = "/Zainab Ramadan/index.html";
+});
 
 document.querySelector(".zakaria").addEventListener("click", () => {
   window.location.href = "zakaria/index.html";
@@ -23,14 +23,17 @@ document.querySelector(".nizar").addEventListener("click", () => {
 });
 document.querySelector(".Mohammed").addEventListener("click", () => {
   window.location.href = "mohammed/index.html";
-})
+});
 document.querySelector("#belal").addEventListener("click", () => {
   window.location.href = "BelalMustafa/index.html";
-})
+});
 document.querySelector(".Nader").addEventListener("click", () => {
   window.location.href = "Nader/index.html";
-})
+});
 document.querySelector(".rateb").addEventListener("click", () => {
   window.location.href = "Rateb/index.html";
-})
+});
 
+document.querySelector(".Abdallah").addEventListener("click", () => {
+  window.location.href = "Abdallah/index.html";
+});
