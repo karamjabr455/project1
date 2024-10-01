@@ -1,0 +1,161 @@
+ *,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+ }
+ header{
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ .logo {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 500;
+      color: #3a6cf4;
+       
+ }
+ .menu-toggle{
+  display: none;
+  
+ }
+
+   .menu-bar{
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+      cursor: pointer;
+   }
+   .menu-bar .bar{
+      height: 3px;
+      width: 100%;
+      background-color: #3a6cf4;
+      border-radius: 1opx;
+   }
+
+.bar{
+  transition: .5 ease;
+}
+ .navigation{
+   display: flex;
+   align-items: center;
+ }
+ .sign_up{
+   font-size: 16px;
+   font-weight: 600;
+   color: #f0f0f0;
+   padding: 10px;
+   border: hidden;
+   border-radius: 23px;
+   background-color: #3a6cf4;
+   transition: .5s;
+   cursor: pointer;
+ }
+ .sign_up:hover{
+   background-color: #8ca8f5;
+ }
+ .navigation ul{
+   display: flex;
+   justify-content:space-around;
+    
+ }
+
+ .navigation ul li a{
+    text-decoration: none;
+    color:#3a6cf4 ;
+    font-size:19px ;
+    font-weight: 500;
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+     
+}
+ .navigation ul li a::before{
+    content: '';
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    height: 2px;
+    background-color: #3a6cf4;
+    
+    width: 0;
+    transition: .5s ease;
+ }
+ .navigation ul li a:hover{
+   color: rgb(40, 150, 247);
+ }
+ /*remember this mistake*/
+ .navigation ul li a:hover::before{
+    width: 96%;
+ }
+ @media (max-width: 768px) {
+   header {
+       padding: 10px 20px;  
+   }
+
+   .menu-bar {
+       display: flex;
+   }
+
+   .navigation {
+       display: none;  
+       flex-direction: column;
+       width: 100%;
+       background-color: #f0f0f0;
+       position: absolute;
+       top: 60px;
+       left: 0;
+   }
+   .navigation ul {
+    flex-direction: column;
+   
+     
+  }
+  .navigation li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle:checked + .menu-bar + .navigation {
+    display: flex;
+  }
+  
+
+   .navigation.active {
+       display: flex;
+        
+   }
+   
+   .navigation ul {
+       flex-direction: column;
+       width: 100%;
+   }
+
+   .navigation ul li {
+       width: 100%;
+       text-align: center;
+       padding: 10px 0;
+   }
+
+   .logo {
+       font-size: 24px; 
+   }
+}
+
+@media (max-width: 480px) {
+   .logo {
+       font-size: 20px;  
+   }
+
+   .sign_up {
+       font-size: 14px;  
+       padding: 8px;
+   }
+}
