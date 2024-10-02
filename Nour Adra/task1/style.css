@@ -40,14 +40,6 @@
       background-color: #3a6cf4;
       border-radius: 1opx;
    }
-
-.bar{
-  transition: .5 ease;
-}
- .navigation{
-   display: flex;
-   align-items: center;
- }
  .sign_up{
    font-size: 16px;
    font-weight: 600;
@@ -106,19 +98,18 @@
    }
 
    .navigation {
-       display: none;  
-       flex-direction: column;
+       display: none;
        width: 100%;
        background-color: #f0f0f0;
        position: absolute;
        top: 60px;
        left: 0;
    }
-   .navigation ul {
-    flex-direction: column;
+      .navigation ul {
+       flex-direction: column;
+       width: 100%;
+   }
    
-     
-  }
   .navigation li {
     margin: 10px 0;
   }
@@ -133,10 +124,7 @@
         
    }
    
-   .navigation ul {
-       flex-direction: column;
-       width: 100%;
-   }
+  
 
    .navigation ul li {
        width: 100%;
