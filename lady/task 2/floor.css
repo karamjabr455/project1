@@ -1,0 +1,23 @@
+.sqaers{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    gap: 20px;
+    flex-wrap: wrap;}
+    .pic{
+  
+        position: relative;    
+    }
+    .pic>img{
+        width: 200px; 
+        height: 200px; 
+        overflow: hidden;
+        background-size: contain;
+    }
+    .pic>h3{
+        width: 70%;
+        position: absolute;
+        left: 10px;
+        bottom:0px  
+    }
